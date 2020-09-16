@@ -18,6 +18,7 @@ class App extends Component {
                   <span id="waving-hand"><img src={wavingHand} alt="waving-hand" /></span>
                 </p>
                 <p id="description">I am Iris, a Virtual Assistant How may I help you? </p>
+              
               </div>
               <FAQbox />
             </div>

@@ -3,6 +3,7 @@ import React from 'react';
 import questionMark from '../../assets/question-mark.svg';
 import Question from './question/Question';
 import Button from './button/Button';
+import robot from '../../assets/robot.svg';
 
 import "./index.css";
 
@@ -18,7 +19,9 @@ const index = () => {
 
     return (
         <React.Fragment>
+
             <div id="faq-layout">
+                <img id="robot" src={robot} alt="robot" />
                 <div id="faq-content">
                     <p id="faq-title">
                         Frequently Asked Questions

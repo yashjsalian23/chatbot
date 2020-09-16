@@ -11,7 +11,15 @@
 }
 
 #faq-content{
-    margin: 50px 25px;
+    position: relative;
+    margin: 0 25px;
+    bottom: 38px;
+}
+
+#robot{
+    position: relative;
+    left:25px;
+    bottom: 37px;
 }
 
 #question-mark{
