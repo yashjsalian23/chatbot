@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import wavingHand from './assets/waving-hand.svg';
+
 import './App.css';
 
 class App extends Component {
@@ -10,7 +12,10 @@ class App extends Component {
             <div id="upper-layout">
               <div id="upper-content">
                 <span id="title">IRIS</span>
-                <p id="hello-text">Hello</p>
+                <p id="hello-text">
+                  Hello
+                  <span style={{marginLeft: 19}}><img src={wavingHand} alt="waving-hand" /></span>
+                </p>
                 <p id="description">I am Iris, a Virtual Assistant How may I help you? </p>
               </div>
             </div>
