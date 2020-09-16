@@ -15,7 +15,7 @@ class App extends Component {
                 <span id="title">IRIS</span>
                 <p id="hello-text">
                   Hello
-                  <span style={{marginLeft: 19}}><img src={wavingHand} alt="waving-hand" /></span>
+                  <span id="waving-hand"><img src={wavingHand} alt="waving-hand" /></span>
                 </p>
                 <p id="description">I am Iris, a Virtual Assistant How may I help you? </p>
               </div>

@@ -1,15 +1,22 @@
 body{
     font-family: 'DM Sans', sans-serif;
+    background: #E5E5E5;
 }
 
 #layout{
     width: 416px;
     height: 660px;
     background: #FFFFFF;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.08);
     border-radius: 18px;
     margin: 50px auto;
+}
+
+#waving-hand{
+    margin-left: 19px;
+    position: relative;
+    top: 3px;
 }
 
 #upper-layout{
