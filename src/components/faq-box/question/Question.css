@@ -17,4 +17,10 @@
     font-weight: normal;
     font-size: 12px;
     line-height: 21px;
+    margin-left: 7px;
+}
+
+.img-bullet{
+    position: relative;
+    top:3px;
 }

@@ -12,7 +12,7 @@ const index = () => {
                 <div id="faq-content">
                     <p id="faq-title">
                         Frequently Asked Questions
-                        <span style={{marginLeft: 7}}><img src={questionMark} alt="question mark" /></span>
+                        <span id="question-mark"><img src={questionMark} alt="question mark" /></span>
                     </p>
                     <Question />
                 </div>
