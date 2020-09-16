@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import wavingHand from './assets/waving-hand.svg';
+import FAQbox from './components/faq-box';
 
 import './App.css';
 
@@ -18,6 +19,7 @@ class App extends Component {
                 </p>
                 <p id="description">I am Iris, a Virtual Assistant How may I help you? </p>
               </div>
+              <FAQbox />
             </div>
         </div>
       </React.Fragment>
