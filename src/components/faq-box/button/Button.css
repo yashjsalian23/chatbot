@@ -17,6 +17,8 @@
 
     color: #2D2D2D;
     padding: 11px;
+
+    cursor: pointer;
 }
 
 #chat-icon{
