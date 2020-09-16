@@ -9,7 +9,7 @@ const Question = (props) => {
         <div className="question-layout">
             <div className="question-content">
                 <span className="img-bullet"><img src={bullet} alt="bullet" /></span>
-                <span className="question-text">Can I redeem my FB before the original term?</span>
+                <span className="question-text">{props.content}</span>
             </div>
         </div>
     );
