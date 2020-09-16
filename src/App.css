@@ -1,3 +1,7 @@
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+
 #layout{
     width: 416px;
     height: 629px;
@@ -5,21 +9,50 @@
     border: 2px solid black;
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.08);
     border-radius: 18px;
-    text-align: center;
     margin: 50px auto;
 }
 
 #upper-layout{
     background: linear-gradient(123.75deg, #F5821F 1.87%, #FF5C00 120.46%);
     height: 45%;
-    width: 416px;
+    width: 100%;
     border-radius: 18px 18px 0 0;
+    /* padding: 20px 56px; */
+    color:  #FFFFFF;
+    padding-top: 20px;
+}
+
+#upper-content{
+    margin: 0 56px;
+}
+
+#title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 39px;
+}
+
+#hello-text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 29px;
+}
+
+#description{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
 }
 
 @media (max-width: 481px){
     #layout{
-        height: 100%;
-        width: 100%;
-        margin: 0;
+        margin: 0 5px;
+    }
+
+    #upper-layout{
+       margin: 0 ;
     }
 }
