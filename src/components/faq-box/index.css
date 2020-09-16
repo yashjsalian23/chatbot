@@ -34,3 +34,9 @@
     font-size: 14px;
     line-height: 18px;
 }
+
+@media (max-width: 410px){
+    #faq-layout{
+        width: 90%;
+    }
+}
