@@ -2,6 +2,7 @@ import React from 'react';
 
 import questionMark from '../../assets/question-mark.svg';
 import Question from './question/Question';
+import Button from './button/Button';
 
 import "./index.css";
 
@@ -24,6 +25,7 @@ const index = () => {
                         <span id="question-mark"><img src={questionMark} alt="question mark" /></span>
                     </p>
                     {content}
+                    <Button />
                 </div>
             </div>
         </React.Fragment>
