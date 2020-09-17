@@ -6,10 +6,21 @@ import FAQbox from './components/faq-box';
 import './App.css';
 
 class App extends Component {
+  state = {
+    showBot: false
+  }
+
+  botShowHandler = () => {
+    this.setState({showBot:true});
+  }
+
   render() {
-    return (
-      <React.Fragment>
-        <div id="layout">
+
+    let content;
+    if(this.state.showBot){
+      content = (
+        <React.Fragment>
+          <div id="layout">
             <div id="upper-layout">
               <div id="upper-content">
                 <span id="title">IRIS</span>
@@ -22,7 +33,20 @@ class App extends Component {
               </div>
               <FAQbox />
             </div>
-        </div>
+          </div>
+        </React.Fragment>
+      );
+    } else {
+      content = (
+        <React.Fragment>
+          <button onClick={this.botShowHandler}>Switch</button>
+        </React.Fragment>
+      )
+    }
+
+    return (
+      <React.Fragment>
+        {content}
       </React.Fragment>
     )
   }
