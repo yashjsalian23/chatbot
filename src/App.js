@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import wavingHand from './assets/waving-hand.svg';
 import FAQbox from './components/faq-box';
+import robot from './assets/robot.svg';
 
 import './App.css';
 
@@ -39,7 +40,9 @@ class App extends Component {
     } else {
       content = (
         <React.Fragment>
-          <button onClick={this.botShowHandler}>Switch</button>
+          <div onClick={this.botShowHandler} id="robot-icon">
+            <img style={{cursor:"pointer"}} src={robot} alt="robot" />
+          </div>
         </React.Fragment>
       )
     }

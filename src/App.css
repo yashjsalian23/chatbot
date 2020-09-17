@@ -3,6 +3,13 @@ body{
     background: #E5E5E5;
 }
 
+#robot-icon{
+    position: fixed;
+    margin: auto 25px 15px auto;
+    bottom: 0;
+    right: 0;
+}
+
 #layout{
     width: 416px;
     height: 660px;
